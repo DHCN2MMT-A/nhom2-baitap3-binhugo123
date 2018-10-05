@@ -1,20 +1,16 @@
-nav ul > li{
-    float: right;
+ ul {
     list-style-type: none;
-    line-height: 5px;
-    margin-left: 10px;
-    color: blue
+    text-align: right;
 }
-html{
-    background-color: aqua;
+li{
+    display: inline-block;
 }
-body  {
-text-align: center;
-font-family:'Times New Roman', Times, serif;
-color: blue;
-position: relative;
-
+body{
+    background-color: cyan;
 }
-#Honors >div {
-color: red;
+h1>u{
+    text-align: center;
+    color: blue;
+    padding-left: 42%;
+    padding-right: 20%;
 }
