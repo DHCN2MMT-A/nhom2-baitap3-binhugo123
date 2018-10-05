@@ -14,3 +14,76 @@ h1>u{
     padding-left: 42%;
     padding-right: 20%;
 }
+img{
+    width: 14%;
+    height: 17%;
+    border-radius: 50%;
+    display: block;
+    margin-left: 45%;
+    margin-right: auto;
+}
+.cetermain{
+    padding-left: 30.5%;
+    padding-right: 23
+}
+body{
+    width: 98%;
+}
+#LarLy,#Career,h2,#Facts{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+p{
+    padding-left: 30%;
+    padding-right: 20%;
+    line-height: normal;
+}
+br{
+    display: none;
+}
+#Honor{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+.bright{
+    color: red;
+}
+.bright br{
+    display: inline;
+}
+.bright a:nth-child(odd){
+    background-color: gray;
+    text-decoration: none;
+    padding: 5xp;
+    color: floralwhite;
+}
+.bright a:nth-child(even){
+    background-color: orange;
+    text-decoration: none;
+    padding: 5xp;
+    color: floralwhite;
+}
+.interesting br{
+    display: inline;
+}
+.interesting ol{
+    counter-reset: section;
+}
+.interesting li::before{
+    content: counter(section)". ";
+    counter-increment: section;
+}
+.interesting h3{
+    color: blue;
+    text-decoration: underline;
+}
+h3{
+    padding-left: 39%;
+    padding-right: 20%;
+}
+#ab{
+    padding-left: 30%;
+    padding-right: 40%;
+}
