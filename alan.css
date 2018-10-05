@@ -63,13 +63,15 @@ br{
     background-color: orange;
     text-decoration: none;
     padding: 5xp;
-    color: floralwhite;
+    color: floralwhite;    
 }
-.interesting br{
-    display: inline;
-}
-.interesting > ol{
+.interesting  ol{
     counter-reset: section;
+    margin: auto;
+    width: 45%;
+    border: 1px solid cyan;
+    color: blue;
+    font-family:Verdana;
 }
 .interesting li::before{
     content: counter(section)". ";
@@ -82,8 +84,4 @@ br{
 h3{
     padding-left: 39%;
     padding-right: 20%;
-}
-#ab{
-    padding-left: 30%;
-    padding-right: 40%;
 }
