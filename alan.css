@@ -68,7 +68,7 @@ br{
 .interesting br{
     display: inline;
 }
-.interesting ol{
+.interesting > ol{
     counter-reset: section;
 }
 .interesting li::before{
